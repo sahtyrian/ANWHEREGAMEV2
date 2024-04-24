@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATWP Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <audio controls autoplay>
+        <source src="music.mp3" type="audio/mp3">
+    </audio>
+
+    <div id="background-wrapper">
+        <div id="background"></div>
+        <div id="background2"></div>
+    </div>
+    <div id="game-container">
+        <img id="car" src="car_image.png">
+    </div>
+    <div id="score-counter">Score:  </div> <!-- Add the score counter element here -->
+     
+    <!-- Directional pad overlay -->
+     <div id="directional-pad">
+        <button id="up-button">&#8593;</button>
+        <button id="left-button">&#8592;</button>
+        <button id="down-button">&#8595;</button>
+        <button id="right-button">&#8594;</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
